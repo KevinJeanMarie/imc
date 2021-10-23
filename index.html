@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stlye.css"/>
+    <title>Document</title>
+</head>
+<header>
+    <h1>IMC</h1>
+    <p>L’indice de masse corporelle (IMC) permet d’évaluer rapidement votre corpulence<br/>
+        simplement avec votre poids et votre taille, quel que soit votre sexe.<br/>
+         Calculez rapidement votre IMC et découvrez dans quelle catégorie vous vous situez<br/>
+        L’indice de masse corporelle (IMC) est le seul indice validé par l’Organisation<br/>
+         mondiale de la santé pour évaluer la corpulence d’un individu et donc les éventuels<br/>
+          risques pour la santé. L’IMC permet de déterminer si l’on est situation de maigreur, de surpoids<br/>
+           ou d’obésité par exemple.<br/><br/>
+        En anglais on parle de BMI pour Body Mass Index.</p>
+        <br>
+        <br>
+
+    <h2>COMMENT CALCULER MON IMC ?</h2>
+</header>
+<body>
+    <div class= "barre1">
+<p class="text">Indiquez votre taille en CM:</p>
+<input type="text" id="taille"><br/><br>
+</div>
+
+<div class= "barre2">
+<p class="text">Indiquez votre poid en KG:</p>
+<input type="text" id="poid">
+<p id="Resultat"></p>
+<br>
+    <button onClick="IMC()">CALCULER</button>
+</div>
+<br/>
+<br/>
+
+<div class="imc1">
+    <P class="imc2">
+        Interprétation (selon l'OMS)<br/><br/>
+
+        Inférieur à 16.5 &ensp;&ensp;&ensp;&ensp;&ensp;Anorexie ou dénutrition<br/>
+        Entre 16.5 et 18.5 &ensp;&ensp;Maigreur<br/>
+        Entre 18.5 et 25 &ensp;&ensp;&ensp;&ensp;Corpulence normale<br/>
+        Entre 25 et 30 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Surpoids<br/>
+        Entre 30 et 35 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Obésité simple / modérée (grade 1)<br/>
+        Entre 35 et 40 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Obésité sévère (grade 2)<br/>
+        Supérieur à 40 &ensp;&ensp;&ensp;&ensp;&ensp;&thinsp;Obésite morbide (grade 3)</P>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
